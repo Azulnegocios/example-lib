@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lib Azul Negócios</title>
+  </head>
+  <body>
+    <script src="../azulnegocios.js" charset="utf-8"></script>
+      <script type="text/javascript">
+        //Formas de uso
+        /*usando fuções adicionadas dentro da propriedade prototype*/
+        var azulnegocios = new AzulNegocios();
+        azulnegocios.alert("");
+        /*end*/
+
+        /*usando fuções adicionadas dentro da propriedade prototype sem a necessidade do operador new*/
+        AzulNegocios().alert("Welcome to AzulNegocios.js!");
+        /*end*/
+
+        /*usando fuções adicionadas dentro da propriedade __proto__ e sem a necessidade do operador new*/
+        AzulNegocios.alert("Welcome to AzulNegocios.js!");
+        /*end*/
+      </script>
+  </body>
+</html>
