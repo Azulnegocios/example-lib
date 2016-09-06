@@ -9,13 +9,13 @@
    //Formas de uso
    /*usando fuções adicionadas dentro da propriedade prototype*/
    var azulnegocios = new AzulNegocios();
-   azulnegocios.alert("");
+   azulnegocios.alert("Operador new");
    /*end*/
    /*usando fuções adicionadas dentro da propriedade prototype sem a necessidade do operador new*/
-   AzulNegocios().alert("Welcome to AzulNegocios.js!");
+   AzulNegocios().alert("Sem operador new");
    /*end*/
    /*usando fuções adicionadas dentro da propriedade __proto__ e sem a necessidade do operador new*/
-   AzulNegocios.alert("Welcome to AzulNegocios.js!");
+   AzulNegocios.alert("Sem operador new e usando o __proto__");
    /*end*/
  </script>
 ```
