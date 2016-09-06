@@ -2,8 +2,8 @@
 ## Modo de uso
 #### Arquivo de exemplo de uso: ./test/index.html
 >                Importanto a lib
-```
 
+```
  <script src="../azulnegocios.js" charset="utf-8"></script>
  <script type="text/javascript">
    //Formas de uso
